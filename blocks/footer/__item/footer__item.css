@@ -1,0 +1,12 @@
+.footer__item {
+  list-style-type: none;
+  margin-right: 18px;
+}
+.footer__item:last-child {
+  margin: 0;
+}
+@media screen and (max-width: 767px) {
+  .footer__item {
+    margin: 0 0 32px;
+  }
+}
